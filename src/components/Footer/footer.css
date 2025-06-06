@@ -1,0 +1,17 @@
+.f-content {
+  display: block;
+  border: 5px solid white;
+  height: 20%;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.f-content .links {
+  width: 32px;
+  height: 32px;
+}
+
+iframe {
+  border-radius: 5%;
+}

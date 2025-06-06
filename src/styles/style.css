@@ -1,0 +1,21 @@
+.servicios {
+  display: grid;
+  gap: 3;
+  columns: 3;
+}
+
+.cortes {
+  margin: auto;
+  padding: 10px;
+  border: 2px solid white;
+  box-shadow: whitesmoke;
+  border-radius: 5%;
+  width: fit-content;
+  text-align: center;
+}
+
+img {
+  border-radius: 5%;
+  width: auto;
+  height: 150px;
+}
