@@ -1,7 +1,10 @@
 .servicios {
   display: grid;
-  gap: 3;
-  columns: 3;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  background-color: skyblue;
 }
 
 .cortes {
@@ -18,4 +21,20 @@ img {
   border-radius: 5%;
   width: auto;
   height: 150px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
+}
+
+.product {
+  margin: auto;
+  padding: 10px;
+  border: 2px solid white;
+  box-shadow: whitesmoke;
+  border-radius: 5%;
+  width: fit-content;
+  text-align: center;
 }

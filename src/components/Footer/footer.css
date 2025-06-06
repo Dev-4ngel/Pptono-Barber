@@ -1,5 +1,7 @@
 .f-content {
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
   border: 5px solid white;
   height: 20%;
   text-align: center;
@@ -8,10 +10,17 @@
 }
 
 .f-content .links {
+  justify-content: center;
+  justify-items: center;
   width: 32px;
   height: 32px;
 }
 
 iframe {
   border-radius: 5%;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
 }
