@@ -3,39 +3,86 @@ import Header from "../components/Header/header.astro";
 import Footer from "../components/Footer/footer.astro";
 import Layout from "../layouts/Layout.astro";
 import "../styles/style.css";
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout title="Pptoño barber">
   <Header />
 
   <main>
+    <h2>Cortes</h2>
     <section class="servicios">
-      <!-- <h2>Cortes</h2> -->
       <div class="cortes">
         <h3>Buzz cut</h3>
         <img src="/src/assets/buzzcut.jpg" alt="buzz cut" />
         <p>Este corte se realiza...</p>
         <span>$230</span>
       </div>
+
       <div class="cortes">
-        <h3>Clasico</h3>
+        <h3>Natural</h3>
         <img src="" alt="" />
-        <p></p>
+        <p>Corte natural con el #2 por los laterales</p>
         <span>$230</span>
       </div>
+
       <div class="cortes">
         <h3>Tapper fade</h3>
         <img src="/src/assets/taper-fade.webp" alt="taper fade" />
         <p>Desvanecido con #0 en patillas y nuca</p>
         <span>$230</span>
       </div>
+
+      <div class="cortes">
+        <h3>Desvanecidos</h3>
+        <img src="" alt="" />
+        <p>
+          Desvanecido alto, medio o bajo <br />
+          iniciando con el numero 0
+        </p>
+        <span>$230</span>
+      </div>
+
+      <div class="cortes">
+        <h3>Mullet</h3>
+        <img src="" alt="" />
+        <p>Desvacenido con el #0 en las patillas</p>
+        <span>$230</span>
+      </div>
+
+      <div class="cortes">
+        <h3>Brust fade</h3>
+        <img src="" alt="" />
+        <p>Desvanecido con el #0 en forma ciurcular</p>
+        <span>$230</span>
+      </div>
     </section>
 
+    <h2>Paquetes</h2>
+    <section class="paquetes">
+      <div class="paquete">
+        <h3>Barba y fade</h3>
+        <img src="" alt="" />
+        <p>
+          Desvanecido fade a partir del #0, barba igualmente desvanecida y
+          conectada con el cabello.
+        </p>
+        <span>$400</span>
+      </div>
+
+      <div class="paquete">
+        <h3>Corte y barba</h3>
+        <img src="" alt="" />
+        <p>
+          Corte natural o tijera por los costados, arreglo de barba con ligera
+          exfoliacion y uso de vapor caliente para relajacion y facilitacion de
+          la piel al momento de realizar el afeitado.
+        </p>
+        <span>$400</span>
+      </div>
+    </section>
+
+    <h2>Productos</h2>
     <section class="products">
-      <!-- <h2>Productos</h2> -->
       <div class="product">
         <h3>Fussion pomade</h3>
         <img src="" alt="" />

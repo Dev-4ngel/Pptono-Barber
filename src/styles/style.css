@@ -2,14 +2,37 @@
   margin-top: 10px;
   padding-top: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   background-color: skyblue;
 }
 
-.cortes {
+h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.servicios .cortes {
+  margin: auto;
+  padding: 10px;
+  border: 2px solid white;
+  box-shadow: whitesmoke;
+  border-radius: 5%;
+  width: fit-content;
+  text-align: center;
+}
+
+.paquetes {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  gap: 3;
+  background-color: aquamarine;
+}
+
+.paquetes .paquete {
   margin: auto;
   padding: 10px;
   border: 2px solid white;
@@ -29,6 +52,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 15px;
+  margin-bottom: 20px;
 }
 
 .product {
