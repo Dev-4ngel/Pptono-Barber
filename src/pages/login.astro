@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/login.css";
+---
+
+<Layout title="Login | Pptoño barber">
+  <main class="login">
+    <form action="/api/login" method="POST">
+      <h3>Usuario:</h3>
+      <input type="text" placeholder="Ingrese su usuario" required />
+      <h3>Contraseña:</h3>
+      <input type="password" placeholder="Ingrese su contraseña" required />
+      <button type="submit">Iniciar sesión</button>
+    </form>
+    <p>
+      ¿No tienes cuenta? <a href="/singup">Regístrate</a>
+    </p>
+  </main>
+</Layout>
