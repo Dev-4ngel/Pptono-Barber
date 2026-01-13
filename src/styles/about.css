@@ -1,16 +1,38 @@
+main {
+  padding: 10px;
+}
+
 .hero {
-  display: block;
-  margin: 0;
-  text-align: left;
+  display: flex;
   justify-content: center;
+  margin: 0;
 }
 
-.hero h1 {
-  margin-bottom: 5px;
+.write {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
 }
 
-img {
-  width: 250px;
-  height: 50%;
+.about-h1,
+.about-h2,
+.about-text {
+  margin: 0;
+}
+
+.about-h1 {
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.img-hero {
+  width: 350px;
+  height: auto;
   border-radius: 5%;
 }

@@ -1,7 +1,6 @@
 .f-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border: 5px solid white;
   height: 20%;
   text-align: center;
   justify-items: center;
@@ -14,12 +13,13 @@
   width: 32px;
   height: 32px;
 }
+/*Poner una pseudo clase para poder separar los links?*/
 
 iframe {
   border-radius: 5%;
 }
 
-p {
+.footer-text {
   display: flex;
   text-align: center;
   justify-content: center;
